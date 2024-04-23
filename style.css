@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .background-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: darkblue; /* Culoare albastru închis */
+    background-color: rgba(255, 255, 255, 0.5); /* Fundal semi-transparent */
+    padding: 40px; /* Margini mai mari */
+    border-radius: 15px;
+    width: 45%; /* Container mai îngust */
+    height: 40%; /* Container mai înalt */
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .joke {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
